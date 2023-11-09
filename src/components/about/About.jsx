@@ -2,7 +2,7 @@ import "./about.css";
 
 function About() {
   return (
-    <d>
+    <>
       <div className="p-5 mb-4  rounded-3 text-bg-primary mt-4 ">
         <div className="container-fluid py-5">
           <h1 className="display-5 fw-bold">Read About Us</h1>
@@ -30,7 +30,7 @@ function About() {
           </button>
         </div>
       </div>
-    </d>
+    </>
   );
 }
 
